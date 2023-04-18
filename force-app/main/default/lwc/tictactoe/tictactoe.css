@@ -1,0 +1,38 @@
+.gameboard {
+    display : grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    
+}
+
+
+.box{
+   background-color: aliceblue;
+   border: 1px solid #555;
+   font-size: 80px;
+   text-align: center;
+   font-family: 'Comic Sans MS';
+   background-color: #F9FBFF;
+   color: #16264C;
+   border-color: #16264C;
+   overflow: hidden;
+   
+}
+
+.card{
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    height: 320px;
+    width: 320px;
+}
+
+.text{
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+}
+
+
+

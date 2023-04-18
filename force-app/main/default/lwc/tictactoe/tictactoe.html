@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="TicTacToe" class="card">
+    <lightning-formatted-rich-text value={result} class="text"></lightning-formatted-rich-text>
+    <div class="gameboard">
+        <div class="box" id="0" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="1" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="2" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="3" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="4" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="5" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="6" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="7" onclick={handleClick} lwc:dom="manual"></div>
+        <div class="box" id="8" onclick={handleClick} lwc:dom="manual"></div>
+    </div>
+    <lightning-button  variant="brand" onclick={reset} label="reset" class="slds-m-left_x-small"></lightning-button>
+</lightning-card>
+</template>
